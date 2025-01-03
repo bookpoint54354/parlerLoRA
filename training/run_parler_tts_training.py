@@ -65,7 +65,7 @@ from training.arguments import ModelArguments, DataTrainingArguments, ParlerTTST
 from training.data import load_multiple_datasets, DataCollatorParlerTTSWithPadding, DataCollatorEncodecWithPadding
 from training.eval import clap_similarity, wer, si_sdr
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 os.environ["WANDB_MODE"] = "online"
 
 
