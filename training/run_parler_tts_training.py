@@ -66,6 +66,7 @@ from training.data import load_multiple_datasets, DataCollatorParlerTTSWithPaddi
 from training.eval import clap_similarity, wer, si_sdr
 
 logger = logging.getLogger(__name__)
+os.environ["WANDB_MODE"] = "online"
 
 
 def main():
